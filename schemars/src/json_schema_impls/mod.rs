@@ -64,7 +64,9 @@ mod serdejson;
 #[cfg(feature = "smallvec")]
 mod smallvec;
 mod time;
-mod tuple;
+
 #[cfg(feature = "uuid")]
 mod uuid;
+#[cfg(feature = "macaddr")]
+mod macaddr;
 mod wrapper;
